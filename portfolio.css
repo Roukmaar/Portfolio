@@ -32,9 +32,6 @@ a:hover{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(208, 236, 242);
-    border: solid rgb(53, 53, 53);
-    border-color: rgb(163, 163, 163);
     width:auto;
     height:100%;
     margin: 0;
@@ -61,12 +58,12 @@ a:hover{
     justify-content: center;
     outline:none;
     border-radius: 50px;
-    background: rgb(208, 236, 242);
     width:50%;
     cursor: pointer;
 }
 .btn-container button:hover{
-    background: rgb(125, 196, 240);
+    color: white;
+    background: rgb(43, 45, 46);
     transition: 300rm;
 }
 .btn-container2{
@@ -81,8 +78,6 @@ a:hover{
     align-items: center;
     justify-content: space-between;
     outline:none;
-    border-radius: 50px;
-    background: rgb(120, 215, 234);
     width:20%;
     cursor: pointer;
     padding: 10px;
@@ -102,7 +97,6 @@ a:hover{
 }
 .about-me{
     padding: 5px;
-    background: rgb(208, 236, 242);
     border-radius: 50px;
     border: solid rgb(53, 53, 53);
     border-color: rgb(163, 163, 163);
@@ -113,7 +107,6 @@ a:hover{
 }
 .about-me1{
     padding: 5px 0 5px;
-    background: rgb(208, 236, 242);
     border-radius: 50px;
     border: solid rgb(53, 53, 53);
     border-color: rgb(163, 163, 163);
@@ -142,7 +135,6 @@ a:hover{
 }
 .my-experience{
     padding-inline-start: 100px;
-    background:  rgb(208, 236, 242);
     border-radius: 50px;
     border: solid rgb(53, 53, 53);
     border-color: rgb(163, 163, 163);
@@ -169,7 +161,6 @@ a:hover{
 }
 .projects{
     display: flex;
-    background: rgb(208, 236, 242);
     border-radius: 50px;
     border: solid rgb(53, 53, 53);
     border-color: rgb(163, 163, 163);
@@ -193,14 +184,14 @@ a:hover{
     justify-content: space-between;
     outline:none;
     border-radius: 50px;
-    background:  rgb(208, 236, 242);
     width:150px;
     cursor: pointer;
     padding: 10px;
 }
 .btn-container3 button:hover{
-    background: rgb(125, 196, 240);
+    background: rgb(43, 45, 46);
     transition: 300rm;
+    color: white;
 }
 .contact-container{
     display: flex;
@@ -216,7 +207,6 @@ a:hover{
     justify-content: center;
     align-items: center;
     gap: 10px;
-    background: rgb(208, 236, 242);
     border-radius: 50px;
     border: solid rgb(53, 53, 53);
     border-color: rgb(163, 163, 163);
