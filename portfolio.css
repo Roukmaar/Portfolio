@@ -1,0 +1,236 @@
+*{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.grand-container{
+    display: flex;
+    background: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 20px 20px;
+    border: none rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: large;
+    justify-content: space-around;
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(125, 196, 240);
+    transition: 300ms;
+
+}
+.profile-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(208, 236, 242);
+    border: solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    width:auto;
+    height:100%;
+    margin: 0;
+    padding: 0;
+    gap: 90px;
+    border-radius: 50px;
+}
+.profile-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0;
+}
+.btn-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.btn-container button{
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline:none;
+    border-radius: 50px;
+    background: rgb(208, 236, 242);
+    width:50%;
+    cursor: pointer;
+}
+.btn-container button:hover{
+    background: rgb(125, 196, 240);
+    transition: 300rm;
+}
+.btn-container2{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.btn-container2 button{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline:none;
+    border-radius: 50px;
+    background: rgb(120, 215, 234);
+    width:20%;
+    cursor: pointer;
+    padding: 10px;
+}
+.about-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.about-me-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.about-me{
+    padding: 5px;
+    background: rgb(208, 236, 242);
+    border-radius: 50px;
+    border: solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    width: 600px;
+    height: 150px;
+
+}
+.about-me1{
+    padding: 5px 0 5px;
+    background: rgb(208, 236, 242);
+    border-radius: 50px;
+    border: solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 150px;
+}
+.about-me-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0 5px;
+    border: solid rgb(53, 53, 53);
+    width: 70%;
+    border: none;
+}
+.my-experience-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 100px;
+}
+.my-experience{
+    padding-inline-start: 100px;
+    background:  rgb(208, 236, 242);
+    border-radius: 50px;
+    border: solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    width: 500px;
+    height: 500px;  
+    justify-content: center;
+    align-items: center;
+}
+.my-projects-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 10px;
+}
+.my-projects{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 150px;
+}
+.projects{
+    display: flex;
+    background: rgb(208, 236, 242);
+    border-radius: 50px;
+    border: solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    width: 600px;
+    height: auto;  
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-container3{
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+    gap: 20px;
+    
+}
+.btn-container3 button{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    outline:none;
+    border-radius: 50px;
+    background:  rgb(208, 236, 242);
+    width:150px;
+    cursor: pointer;
+    padding: 10px;
+}
+.btn-container3 button:hover{
+    background: rgb(125, 196, 240);
+    transition: 300rm;
+}
+.contact-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin: 10px;
+}
+.contact-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background: rgb(208, 236, 242);
+    border-radius: 50px;
+    border: solid rgb(53, 53, 53);
+    border-color: rgb(163, 163, 163);
+    width: 30%;
+    height: 50px;
+    cursor: pointer;    
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0 100px;
+    gap: 100px;
+    padding-left: 100px;
+}
+ 
+
