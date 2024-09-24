@@ -4,271 +4,251 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
   </head>
   <body>
-    <div class="grand-container">
-      <!-- navigation bar -->
-      <div
-        class="main-name"
-        style="
-          justify-content: flex-start;
-          font-size: xx-large;
-          font-weight: 50;
-        ">
-        <p style="font-size: 50px">OLATUNDE UMAR FAROUQ</p>
-      </div>
-      <table>
-        <a href="mine.html">ABOUT</a>
-        <a href="mine.html">EXPERIENCE</a>
-        <a href="mine.html">PROJECTS</a>
-        <a href="mine.html">CONTACT</a>
-      </table>
-    </div>
-    <!-- profile -->
-    <div class="profile-container">
-      <!-- profile pic -->
-      <div class="image">
-        <img
-          src="pictures/profilepics.webp"
-          alt="my profile pic"
-          style="
-            height: 400px;
-            width: 400px;
-            border-radius: 50px;
-            margin: 20px;
-          " />
-      </div>
-      <!-- profile text -->
-      <div class="profile-text" style="text-align: center; font-size: larger">
-        <h5
-          style="font-size: xx-large; color: rgb(77, 74, 74); font-weight: 400">
-          Hello, I'm
-        </h5>
-        <h2 style="color: rgb(0, 0, 0); font-weight: 400">
-          OLATUNDE UMAR FAROUQ
-        </h2>
-        <h5
-          style="font-size: x-large; color: rgb(77, 74, 74); font-weight: 400">
-          A Junior Developer
-        </h5>
-        <!-- buttons -->
-        <div class="btn-container">
-          <button style="justify-content: center; font-size: 16px">
-            Download CV
-          </button>
-          <button style="justify-content: center; font-size: 16px">
-            Contact Info
+    <div class="body">
+      <nav class="flexBetweenH">
+        <b>Olatunde Umar Farouq</b>
+
+        <div class="flexBetweenH pc-menu">
+          <button>About</button>
+          <button>Experience</button>
+          <button>Projects</button>
+          <button>Contact</button>
+        </div>
+
+        <div class="mobile-menu">
+          <button class="clickable-button">
+            <i class="fas fa-bars"></i>
           </button>
         </div>
-        <div class="btn-container2">
-          <img
-            src="pictures/githubd.png"
-            style="
-              height: 69px;
-              width: 20%;
-              border-radius: 50px;
-              cursor: pointer;
-            " />
-          <img
-            src="pictures/facebook.png"
-            style="
-              height: 69px;
-              width: 20%;
-              border-radius: 50px;
-              cursor: pointer;
-            " />
+      </nav>
+      <div class="menu-content-container" style="display: none">
+        <div class="menu-content">
+          <button>About</button>
+          <button>Experience</button>
+          <button>Projects</button>
+          <button>Contact</button>
         </div>
       </div>
+
+      <!--creating presenter-->
+      <div class="presenter-container flexCenter">
+        <img src="../pictures/profilepics.webp" />
+        <div>
+          <br>
+          <br>
+          <small>Hello, I am</small>
+          <h2>Olatunde Umar Farouq</h2>
+          <h3>Fullstack developer</h3>
+          <div class="buttons-ctn flex">
+            <button class="download">Download cv</button>
+            <button class="contact">Contact</button>
+          </div>
+          <div class="icon-ctn flex">
+            <a href="https://github.com/Roukmaar"><img src="../pictures/githubd.png"/></a> 
+            <img src="../pictures/in.png" />
+          </div>
+        </div>
+      </div>
+      <!--about me-->
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="flexCenter">
+        <div>
+          <div class="flexCenter"><small>Get to know me</small></div>
+          <h3 class="heading">About me</h3>
+        </div>
+      </div>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+     <!-- creating Experience aND eduction section -->
+      <div class="exp-container flexCenter">
+<div class="roundedContainer">
+    <img src="/pictures/experience.png">
+    <b>Experience</b>
+    <span>2 years</span>
+    <span>fullstack development</span>
+</div>
+
+
+<div class="roundedContainer">
+    <img src="/pictures/education.png"/>
+    <b>Education</b>
+    <span>B.Sc. Bachelors Degree (IT)</span>
+    <span>fullstack development</span>
+    </span>
     </div>
-    <!-- about me -->
-    <div class="about-container">
-      <p style="font-weight: 400; font-size: x-large">Get To Know more</p>
-      <p style="font-weight: 200; font-size: 50px">ABOUT ME</p>
-    </div>
-    <div class="about-me-container">
-      <div class="about-me">
-        <img
-          src="pictures/experience.png"
-          style="height: 30px; width: 50; border-radius: 50px" />
-        <p>Experience</p>
-        <p>1 Year</p>
-        <p>Front End Development</p>
+
+
       </div>
-      <div class="about-me1">
-        <img
-          src="pictures/education.png"
-          style="height: 30px; width: 50; border-radius: 50px" />
-        <p>Education</p>
-        <p>Junior Developer Certification</p>
-        <p>BS.c. Bachelors Degree(CyberSecurity)</p>
-      </div>
-      <div class="about-me-text">
-        <p style="font-size: x-large; font-weight: 100">
-          Hi there! I'm a passionate Junior Developer with a strong background
-          in creating dynamic and responsive web applications. <br />
-          My expertise lies in leveraging modern technologies such as
-          TypeScript, Node.js, and Next.js to build robust and scalable
-          solutions
-        </p>
-      </div>
+      <p>
+        Hi there! I'm a passionate Full Stack Developer with a strong background in creating dynamic and responsive web applications. My expertise lies in leveraging modern technologies such as TypeScript, Node.js, and Next.js to build robust and scalable solutions.
+        
+      </p>
+      <!-- end  -->
     </div>
     <!-- Experience -->
-    <div class="about-container">
-      <p style="font-weight: 400; font-size: x-large">EXPLORE MY</p>
-      <p style="font-weight: 200; font-size: 50px">EXPERIENCE</p>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+
+
+     
+
+  <div class="flexCenter">
+    <div>
+      <div class="flexCenter"><small>Explore My</small></div>
+      <h3 class="heading">Expereience</h3>
     </div>
-    <div class="my-experience-container">
-      <div class="my-experience">
-        <h1 style="color: rgb(77, 74, 74); font-weight: 400">
-          Front End Development
-        </h1>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />HTML
-        </h2>
-        <i> Experienced</i>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />CSS
-        </h2>
-        <i> Experienced</i>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />JAVASCRIPT
-        </h2>
-        <i> Experienced</i>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />REACT
-        </h2>
-        <i> Experienced</i>
-      </div>
-      <div class="my-experience">
-        <h1 style="color: rgb(77, 74, 74); font-weight: 400">
-          Back End Development
-        </h1>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />NODE.JS
-        </h2>
-        <i> Experienced</i>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />SQL
-        </h2>
-        <i> Experienced</i>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />GIT
-        </h2>
-        <i> Experienced</i>
-        <h2>
-          <img
-            src="pictures/checkmark.png"
-            style="height: 30px; width: 30; border-radius: 50px" />REACT
-        </h2>
-        <i> Experienced</i>
-      </div>
-    </div>
-    <!-- PROJECTS -->
-    <div class="my-projects-container">
-      <p style="font-weight: 400; font-size: x-large">BROWSE MY RECENT</p>
-      <p style="font-weight: 200; font-size: 50px">PROJECTS</p>
-    </div>
-    <div class="my-projects">
-      <div class="projects">
-        <img
-          src="pictures/project-1.png"
-          style="
-            height: 99%;
-            width: 80%;
-            border-radius: 50px;
-            margin: 20px;
-            justify-content: center;
-            align-items: center;
-          " />
-        <span style="font-size: xx-large; font-weight: 400">PROJECT 1</span>
-        <div class="btn-container3">
-          <button style="justify-content: center; font-size: 16px">
-            Github
-          </button>
-          <button style="justify-content: center; font-size: 16px">
-            Live Demo
-          </button>
+  </div>  
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="exp-container flexCenter">
+  
+  <div class="roundedContainer2">
+  
+    <h1>
+      Front End Development
+    </h1>
+    <h2>
+      <img src="/pictures/checkmark.png"/>HTML</h2>
+    <i> Experienced</i>
+    <h2>
+      <img src="/pictures/checkmark.png"/>CSS</h2>
+    <i> Experienced</i>
+    <h2>
+      <img
+        src="/pictures/checkmark.png"/>JAVASCRIPT</h2>
+    <i>Intermediate</i>
+    <h2>
+      <img
+        src="/pictures/checkmark.png"/>REACT</h2>
+    <i> Intermediate</i>
+  </div>
+  <div class="roundedContainer2">
+    <h1>
+      Back End Development
+    </h1>
+   <h2>
+    <img src="/pictures/checkmark.png"/> HTML</h2>
+    <i> Experienced</i>
+    <h2>
+      <img src="/pictures/checkmark.png"/>CSS</h2>
+    <i> Experienced</i>
+    <h2>
+      <img src="/pictures/checkmark.png"/>JAVASCRIPT</h2>
+    <i>Intermediate</i>
+    <h2>
+      <img src="/pictures/checkmark.png"/>REACT</h2>
+    <i> Intermediate</i>
+  </div>
+ </div>
+ <br>
+ <br>
+ <br>
+ <br>
+
+    <!-- My Projects -->
+
+
+      <div class="flexCenter">
+        <div>
+          <div class="flexCenter"><small>Browse My Recent</small></div>
+          <h3 class="heading">Projects</h3>
         </div>
       </div>
-      <div class="projects">
-        <img
-          src="pictures/project-2.png"
-          style="
-            height: 99%;
-            width: 80%;
-            border-radius: 50px;
-            margin: 20px;
-            justify-content: center;
-            align-items: center;
-          " />
-        <span style="font-size: xx-large; font-weight: 400">PROJECT 2</span>
-        <div class="btn-container3">
-          <button style="justify-content: center; font-size: 16px">
-            Github
-          </button>
-          <button style="justify-content: center; font-size: 16px">
-            Live Demo
-          </button>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div>
+
+      <div class="exp-container flexCenter flexBetweenV">
+        <div class="roundedContainer3">
+          <img
+            src="/pictures/project-1.png"/>
+          <span>PROJECT 1</span>
+          <div class="btn">
+            <button>Github</button>
+            <button>Live Demo</button>
+          </div>
+        </div>
+
+        <div class="roundedContainer3">
+          <img
+            src="/pictures/project-2.png"/>
+          <span>PROJECT 2</span>
+          <div class="btn">
+            <button>Github</button>
+            <button>Live Demo</button>
+          </div>
+        </div>
+
+        <div class="roundedContainer3">
+          <img
+            src="/pictures/project-3.png"/>
+          <span>PROJECT 3</span>
+          <div class="btn">
+            <button>Github</button>
+            <button>Live Demo</button>
+          </div>
         </div>
       </div>
-      <div class="projects">
-        <img
-          src="pictures/project-3.png"
-          style="
-            height: 99%;
-            width: 80%;
-            border-radius: 50px;
-            margin: 20px;
-            justify-content: center;
-            align-items: center;
-          " />
-        <span style="font-size: xx-large; font-weight: 400">PROJECT 3</span>
-        <div class="btn-container3">
-          <button style="justify-content: center; font-size: 16px">
-            Github
-          </button>
-          <button style="justify-content: center; font-size: 16px">
-            Live Demo
-          </button>
+      <br>
+      <br>
+      <br>
+      <br>
+
+          <!-- Get in contact with me  -->
+          <div class="flexCenter">
+            <div>
+              <div class="flexCenter"><small>Get in Touch</small></div>
+              <h3 class="heading">Contact Me</h3>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+
+      <div class="flexCenter">
+        <div class="roundedContainer4">
+          <img src="/pictures/email.png"/>
+          <a href="https://mail.google.com/mail/">Olatundefarouq5@gmail.com</a>
         </div>
+      </div>  
+      
+        <br>
+        <br>
+
+
       </div>
-    </div>
-    <!-- contacts -->
-    <div class="contact-container">
-      <p style="font-weight: 400; font-size: x-large">GET IN TOUCH</p>
-      <p style="font-weight: 200; font-size: 50px">CONTACT ME</p>
-      <div class="contact-text">
-        <img
-          src="pictures/email.png"
-          style="height: 50px; width: 50px; border-radius: 50px" />
-        <a href="gooogle.com" style="font-size: larger"
-          >Olatundefarouq5@gmail.com
-        </a>
-      </div>
-    </div>
-    <!-- footer -->
-    <footer>
-      <table>
-        <a href="mine.html">ABOUT</a>
-        <a href="mine.html">EXPERIENCE</a>
-        <a href="mine.html">PROJECTS</a>
-        <a href="mine.html">CONTACT</a>
-      </table>
-    </footer>
+      <!-- footer -->
+      <footer>
+          <a href="google.com">ABOUT</a>
+          <a href="google.com">EXPERIENCE</a>
+          <a href="google.com">PROJECTS</a>
+          <a href="google.com">CONTACT</a>
+      </footer>
   </body>
+  <script src="/portfolio-correction/index.js"></script>
 </html>
